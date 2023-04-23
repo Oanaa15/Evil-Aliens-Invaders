@@ -1,0 +1,51 @@
+.grid {
+    width: 800px;
+    height: 650px;
+    border: solid black 1px;
+    background-image: url("images/sky.png");
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.invader {
+    border-radius: 30px;
+    background-image: url("images/enemy.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.shooter {
+    border-radius: 80px;
+    background-image: url("images/shooter.webp");
+    background-position: center;
+    background-size: contain;
+}
+
+.shooter2 {
+    border-radius: 40px;
+    background-image: url("images/shooter2.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.laser {
+    background-image: url("images/laser.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.boom {
+    background-image: url("images/boom.webp");
+    background-position: center;
+    background-size: contain;
+}
+
+.scor {
+    display: inline-block;
+    /* alte stiluri aditionale */
+}
